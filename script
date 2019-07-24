@@ -1,0 +1,10 @@
+from datetime import date
+from dateutil import relativedelta
+birthdays={"Person A": date(1978, 7, 24), "Person B": date(1986, 9, 4)}
+
+for i in birthdays:
+    if date.today().month==birthdays[i].month and date.today().day==birtdays[i].day:
+      print("Congratulations on turning "+str(relativedelta.relativedelta(date.today(), birtdays[i]).years)+", "+i)
+    else:
+      0
+ 
